@@ -1,9 +1,10 @@
-
+hr {
+  color: black;
+}
 
 .header {
   grid-area: header;
   text-align: center;
-  background-color: blue;
 }
 
 .subheader {
@@ -18,12 +19,11 @@ a:hover {
 
 .footer {
   grid-area: footer;
-  background-color: blue;
 }
 
 .main {
   grid-area: main;
-  background-color: grey;
+
 }
 
 /*.sidebar {
