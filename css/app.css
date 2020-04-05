@@ -13,6 +13,21 @@ hr {
   background-color: white;
 }
 
+.projects {
+  display: table;
+  width: auto;
+  cursor: pointer;
+}
+
+.project {
+  display: none;
+  overflow: hidden;
+}
+
+.projects:hover {
+  background-color: lightgray;
+}
+
 a:hover {
   background-color: yellow;
 }
@@ -26,10 +41,10 @@ a:hover {
 
 }
 
-/*.sidebar {
+.sidebar {
   grid-area: sidebar;
-  background-color: yellow;
-} */
+  /*background-color: yellow;*/
+}
 
 .wrapper{
   display: grid;
@@ -49,8 +64,7 @@ a:hover {
     grid-template-rows: 100px auto 40px;
     grid-template-areas:
     "header header"
-    /*"main   sidebar"*/
-    "main   main"
+    "main   sidebar"
     "footer footer";
   }
 }
