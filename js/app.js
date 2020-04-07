@@ -49,4 +49,5 @@ function writeCBF() {
 function writeLynchburg() {
   domElements.main.innerHTML = "<p><h3>City of Lynchburg</h3><p>While interning with the City of Lynchburg's GIS Office within the city's IT Department, I organized the city's stormwater and public works databases among other things. Check out everything else I did during my internship by clicking the link below<p>"
   domElements.main.innerHTML += "<a href='https://arcg.is/1uD5Pu' target='_blank'>StoryMap</a>"
+  writeHomeBtn();
 }

@@ -61,7 +61,7 @@ a:hover {
 
 @media only screen and (min-width: 544px){
   .wrapper {
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 70% 30%;
     grid-template-rows: 100px auto 40px;
     grid-template-areas:
     "header header"
