@@ -5,7 +5,8 @@ var domElements = {
   "main": document.getElementById('main'),
   "subheader": document.getElementById('subheader'),
   "lynchburg": document.getElementById('lynchburg'),
-  "CBF": document.getElementById('CBF')
+  "CBF": document.getElementById('CBF'),
+  "caret": document.getElementsByTagName('i')
 }
 
 // setup button handlers
@@ -21,7 +22,7 @@ domElements.lynchburg.addEventListener("click", writeLynchburg)
 //
 function writeHomeBtn() {
   if (domElements.subheader.innerHTML.indexOf("Home") == -1 ) {
-    domElements.subheader.innerHTML = "<a href='index.html'>Home</a> |" + subheader.innerHTML;
+    domElements.subheader.innerHTML = "<a href='index.html' id='homeBtn'>Home</a> |" + subheader.innerHTML;
   } else {}
 }
 
@@ -30,9 +31,12 @@ function toggleMenu() {
   var content = this.nextElementSibling;
   if (content.style.display === "block") {
     content.style.display = "none";
+    var caret = this.firstChild.className = "fa fa-caret-right";
   } else {
     content.style.display = "block";
+    var caret = this.firstChild.className = "fa fa-caret-down";
   }
+
 
 };
 

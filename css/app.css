@@ -5,6 +5,7 @@ hr {
 .header {
   grid-area: header;
   text-align: center;
+  margin-top: 30px;
 }
 
 .subheader {
@@ -35,15 +36,19 @@ a:hover {
 
 .footer {
   grid-area: footer;
+  margin-left: 50px;
 }
 
 .main {
   grid-area: main;
-
+  margin-left: 50px;
+  margin-top: 30px;
 }
 
 .sidebar {
   grid-area: sidebar;
+  margin-left: 50px;
+  margin-top: 40px;
   /*background-color: yellow;*/
 }
 
@@ -61,7 +66,7 @@ a:hover {
 
 @media only screen and (min-width: 544px){
   .wrapper {
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 60% 40%;
     grid-template-rows: 100px auto 40px;
     grid-template-areas:
     "header header"
