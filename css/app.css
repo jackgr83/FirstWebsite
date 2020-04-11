@@ -1,5 +1,9 @@
+
+
 hr {
   color: black;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 .header {
@@ -36,18 +40,18 @@ a:hover {
 
 .footer {
   grid-area: footer;
-  margin-left: 50px;
+  margin-left: 350px;
 }
 
 .main {
   grid-area: main;
-  margin-left: 50px;
+  margin-left: 350px;
   margin-top: 30px;
 }
 
 .sidebar {
   grid-area: sidebar;
-  margin-left: 50px;
+  margin-left: 100px;
   margin-top: 40px;
   /*background-color: yellow;*/
 }
