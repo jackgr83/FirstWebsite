@@ -37,7 +37,7 @@ function toggleMenu() {
 };
 
 function writeOADs() {
-  domElements.main.innerHTML = "<p><h3>OADs Portal</h3><p>Click the button below to be directed to the OADs portal.</p><button type='button' name='OADs'>OADS Portal</button>"
+  domElements.main.innerHTML = "<p><h3>OADs Portal</h3><p>I am currently in the process of building a customized search data portal for NOAA's National Centers for Environmental Information. Check back for a link to the portal in the near future!</p>"
   writeHomeBtn();
 };
 
