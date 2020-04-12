@@ -1,9 +1,13 @@
-
+body {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 hr {
   color: black;
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header {
@@ -34,24 +38,27 @@ hr {
 }
 
 a:hover {
-  background-color: yellow;
+  background-color: lightgray;
   cursor: pointer;
 }
 
 .footer {
   grid-area: footer;
-  margin-left: 350px;
+  text-align: center;
+
 }
 
 .main {
   grid-area: main;
-  margin-left: 350px;
+  margin-left: auto;
   margin-top: 30px;
+  margin-bottom: auto;
+  align-content: center;
 }
 
 .sidebar {
   grid-area: sidebar;
-  margin-left: 100px;
+  margin-left: auto;
   margin-top: 40px;
   /*background-color: yellow;*/
 }
@@ -64,8 +71,8 @@ a:hover {
   "sidebar"
   "main"
   "footer";
-  width: 100vw;
   height: 100vh;
+  width: 100vw;
 }
 
 @media only screen and (min-width: 544px){
@@ -76,5 +83,6 @@ a:hover {
     "header header"
     "main   sidebar"
     "footer footer";
+    width: 1000px;
   }
 }
