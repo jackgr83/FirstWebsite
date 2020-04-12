@@ -65,7 +65,7 @@ a:hover {
 
 .wrapper{
   display: grid;
-  grid-template-rows: 100px 280px 200px 335px;
+  grid-template-rows: 100px auto 500px 50px;
   grid-template-areas:
   "header"
   "sidebar"
