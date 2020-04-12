@@ -58,8 +58,9 @@ a:hover {
 
 .sidebar {
   grid-area: sidebar;
-  margin-left: auto;
+  margin-left: 0px;
   margin-top: 40px;
+  float: left;
   /*background-color: yellow;*/
 }
 
@@ -79,12 +80,12 @@ a:hover {
 
 @media only screen and (min-width: 544px){
   .wrapper {
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 60% auto 30%;
     grid-template-rows: 100px auto 40px;
     grid-template-areas:
-    "header header"
-    "main   sidebar"
-    "footer footer";
+    "header header header"
+    "main   empty  sidebar"
+    "footer footer footer";
     width: 1000px;
   }
 }
