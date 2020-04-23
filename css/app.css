@@ -1,24 +1,19 @@
 body {
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+  background-color: lightgray;
 }
 
 hr {
   color: black;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .header {
   grid-area: header;
-  text-align: center;
-  margin-top: 30px;
+  margin-top: 0px;
+  background-color: white;
 }
 
 .subheader {
   grid-area: header;
-  text-align: center;
   background-color: white;
 }
 
@@ -50,10 +45,10 @@ a:hover {
 
 .main {
   grid-area: main;
-  margin-left: auto;
   margin-top: 30px;
   margin-bottom: auto;
   align-content: center;
+  background-color: white;
 }
 
 .sidebar {
@@ -74,7 +69,6 @@ a:hover {
   "footer";
   height: 100vh;
   width: 100vw;
-  margin-left: 15px;
   margin-right: auto;
 }
 
@@ -86,6 +80,5 @@ a:hover {
     "header header header"
     "main   empty  sidebar"
     "footer footer footer";
-    width: 1000px;
   }
 }
